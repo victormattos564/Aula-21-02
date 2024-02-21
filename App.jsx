@@ -53,7 +53,7 @@ export default function App() {
               onPress={() => removeTask(task.id)}
               style={styles.removeButton}
             >
-              <Text style={styles.button}>Remover</Text>
+              <Text style={styles.removeButton}>Remover</Text>
             </TouchableOpacity>
           </View>
         ))}
@@ -121,7 +121,7 @@ const styles = StyleSheet.create({
   },
   removeButton: {
     backgroundColor: 'red',
-    padding: 10,
+    padding: 5,
     borderRadius: 5,
   },
 });
